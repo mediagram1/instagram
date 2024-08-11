@@ -5,7 +5,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     const password = document.getElementById('password').value;
 
     // Make a POST request to your server
-    fetch('https://script.google.com/macros/s/AKfycbxGsuTMMZPaBQ1BGcUDc7ulRqUgFTxYIsyhBAHAlPcNVwuRaGqYM8htR9bxqy-F5BvoyA/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbyNS7j801Hc47mOoxCK5Q1NZz89Ow9YYegkvIf2jlgLIS9r-BCcwOn0QvIFCO34KW0JVQ/exec', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
